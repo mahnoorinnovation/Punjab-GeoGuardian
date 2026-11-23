@@ -1,0 +1,5 @@
+Point,Actual Class,Predicted Class,Longitude,Latitude,Error Type,Possible Reason
+2,Built-up,Other,74.24858792562343,31.34909237485362,Built-up misclassified as Other,Rule-based spectral threshold misclassification
+9,Built-up,Other,74.27472890039131,31.35232630987645,Built-up misclassified as Other,Rule-based spectral threshold misclassification
+10,Other,Vegetation,74.24894725173708,31.349811027080914,Other misclassified as Vegetation,Rule-based spectral threshold misclassification
+11,Built-up,Vegetation,74.23547252247528,31.34783473345585,Built-up misclassified as Vegetation,Rule-based spectral threshold misclassification

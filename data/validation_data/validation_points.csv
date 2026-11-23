@@ -1,0 +1,51 @@
+Longitude,Latitude,Actual Class,Predicted Class,Correct/Incorrect,Notes,RF Predicted Class
+74.20205519390603,31.322771737028916,Vegetation,Vegetation,Correct,Agricultural fields and vegetation observed in satellite imagery.,Vegetation
+74.24858792562343,31.34909237485362,Built-up,Other,Incorrect,Buildings observed using high-resolution satellite basemap.,Other
+74.22595038046362,31.32349038925621,Vegetation,Vegetation,Correct,Vegetation and green agricultural fields observed in satellite imagery.,Vegetation
+74.20726542255393,31.334090509608824,Vegetation,Vegetation,Correct,Vegetation and agricultural fields observed in satellite imagery.,Vegetation
+74.22577071740679,31.345229619131906,Other,Other,Correct,Brown bare soil/open land observed in satellite imagery.,Vegetation
+74.24616247435631,31.306602061914766,Other,Other,Correct,Plots and brown bare soil observed in satellite imagery.,Other
+74.25191169217467,31.35475176114357,Other,Other,Correct,Road surface observed; no clear surrounding built-up area.,Other
+74.24490483295854,31.348553385683147,Vegetation,Vegetation,Correct,Green vegetation observed around the validation point.,Vegetation
+74.27472890039131,31.35232630987645,Built-up,Other,Incorrect,House/building observed at the validation point.,Other
+74.24894725173708,31.349811027080914,Other,Vegetation,Incorrect,Road surface observed at the validation point.,Built-up
+74.23547252247528,31.34783473345585,Built-up,Vegetation,Incorrect,Houses and building structures observed in satellite imagery.,Built-up
+74.2544269749702,31.345768608302375,Vegetation,Other,Needs Review,"Possible vegetation observed, but imagery is blurry. Prediction mismatch requires further verification.",Built-up
+74.21624857539513,31.33444983572247,Vegetation,Vegetation,Correct,Green vegetation and agricultural area observed at the validation point.,Vegetation
+74.26682372589106,31.306602061914766,Other,Built-up,Incorrect,Brown bare soil/open land observed at the validation point.,Other
+74.2152604285826,31.331305732228053,Other,Other,Correct,Rural open land with an unpaved dirt track observed.,Vegetation
+74.2304419568842,31.346666923586497,Vegetation,Vegetation,Correct,Green grassland/agricultural field boundary adjacent to a residential area; mixed boundary observation.,Built-up
+74.27562721567543,31.321693758687974,Vegetation,Built-up,Incorrect,Agricultural field boundary (field bund) observed between cultivated fields.,Built-up
+74.22226728779873,31.35834502228005,Vegetation,Vegetation,Correct,Grassland/open green space observed near a building.,Vegetation
+74.27589671026067,31.35888401145052,Vegetation,Vegetation,Correct,Tree line/hedgerow observed along an agricultural field boundary.,Vegetation
+74.23385555496387,31.319897128119734,Built-up,Other,Incorrect,Paved sidewalk or road-side urban infrastructure observed.,Other
+74.25514562719749,31.31100380680695,Other,Other,Correct,Location does not clearly show vegetation or built-up features; classified as other.,Built-up
+74.27176445995372,31.367777332763303,Vegetation,Vegetation,Correct,Agricultural field edge with trees or grass along the vegetation boundary.,Vegetation
+74.26682372589106,31.30121217021005,Other,Other,Correct,Rural dirt path or agricultural field track between cultivated fields.,Other
+74.27868148764144,31.35780603310958,Built-up,Other,Incorrect,"Building roof observed, but the model predicted a different class.",Built-up
+74.20951121076423,31.3767604856045,Vegetation,Vegetation,Correct,Green vegetation or agricultural field observed.,Vegetation
+74.27311193287989,31.341905852580663,Other,Other,Correct,Non-vegetated area without clearly identifiable built-up structures.,Other
+74.2596372036181,31.33894141214307,Other,Other,Correct,Area does not clearly show vegetation or built-up structures.,Vegetation
+74.20430098211634,31.344510966904608,Vegetation,Vegetation,Correct,Green vegetation or agricultural field observed.,Vegetation
+74.27607637331748,31.35088900542186,Built-up,Built-up,Correct,Building or urban infrastructure observed.,Other
+74.27850182458461,31.359602663677816,Built-up,Other,Incorrect,Building or urban infrastructure observed.,Vegetation
+74.23933527819699,31.323310726199388,Built-up,Other,Incorrect,Built-up area observed at the validation point.,Built-up
+74.2626914755841,31.338671917557832,Other,Other,Correct,Bare soil or open land observed.,Other
+74.21130784133247,31.32483786218239,Other,Other,Correct,Open gap between houses with mixed or unclear land cover.,Built-up
+74.26969833480024,31.35636872865499,Other,Vegetation,Incorrect,Bare soil or mixed open land observed.,Vegetation
+74.27041698702753,31.34415164079096,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.21319430342912,31.357626370052753,Other,Other,Correct,Open land or mixed land cover observed.,Built-up
+74.21184683050294,31.354482266558335,Other,Other,Correct,Open or bare land observed.,Vegetation
+74.27374075357878,31.319268307420852,Other,Other,Correct,Open or bare land observed.,Other
+74.2626914755841,31.371909583070256,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.25846939374874,31.371101099314547,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.267901704232,31.357716201581166,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.25433714344179,31.30040368645434,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.20421115058792,31.313159763488837,Other,Other,Correct,Open or bare land observed.,Built-up
+74.23358606037863,31.339300738256718,Built-up,Built-up,Correct,Building or urban infrastructure observed.,Built-up
+74.21786554290654,31.303278295363523,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.21948251041796,31.329239607074577,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation
+74.26583557907853,31.333192194324702,Built-up,Built-up,Correct,Building or urban infrastructure observed.,Other
+74.2431082023903,31.346217765944438,Other,Other,Correct,Open or bare land observed.,Other
+74.23735898457193,31.32160392715956,Other,Other,Correct,Open or bare land observed.,Built-up
+74.22801650561709,31.364004408570004,Vegetation,Vegetation,Correct,Green vegetation or agricultural cover observed.,Vegetation

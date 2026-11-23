@@ -1,0 +1,20 @@
+Longitude,Latitude,Actual Class,RF Predicted Class,Notes,Error Type
+74.24858792562343,31.34909237485362,Built-up,Other,Buildings observed using high-resolution satellite basemap.,Built-up classified as Other
+74.22577071740679,31.345229619131906,Other,Vegetation,Brown bare soil/open land observed in satellite imagery.,Other classified as Vegetation
+74.27472890039131,31.35232630987645,Built-up,Other,House/building observed at the validation point.,Built-up classified as Other
+74.24894725173708,31.349811027080914,Other,Built-up,Road surface observed at the validation point.,Other classified as Built-up
+74.2152604285826,31.331305732228053,Other,Vegetation,Rural open land with an unpaved dirt track observed.,Other classified as Vegetation
+74.2304419568842,31.346666923586497,Vegetation,Built-up,Green grassland/agricultural field boundary adjacent to a residential area; mixed boundary observation.,Vegetation classified as Built-up
+74.27562721567543,31.321693758687974,Vegetation,Built-up,Agricultural field boundary (field bund) observed between cultivated fields.,Vegetation classified as Built-up
+74.23385555496387,31.319897128119734,Built-up,Other,Paved sidewalk or road-side urban infrastructure observed.,Built-up classified as Other
+74.25514562719749,31.31100380680695,Other,Built-up,Location does not clearly show vegetation or built-up features; classified as other.,Other classified as Built-up
+74.2596372036181,31.33894141214307,Other,Vegetation,Area does not clearly show vegetation or built-up structures.,Other classified as Vegetation
+74.27607637331748,31.35088900542186,Built-up,Other,Building or urban infrastructure observed.,Built-up classified as Other
+74.27850182458461,31.359602663677816,Built-up,Vegetation,Building or urban infrastructure observed.,Built-up classified as Vegetation
+74.21130784133247,31.32483786218239,Other,Built-up,Open gap between houses with mixed or unclear land cover.,Other classified as Built-up
+74.26969833480024,31.35636872865499,Other,Vegetation,Bare soil or mixed open land observed.,Other classified as Vegetation
+74.21319430342912,31.357626370052753,Other,Built-up,Open land or mixed land cover observed.,Other classified as Built-up
+74.21184683050294,31.354482266558335,Other,Vegetation,Open or bare land observed.,Other classified as Vegetation
+74.20421115058792,31.313159763488837,Other,Built-up,Open or bare land observed.,Other classified as Built-up
+74.26583557907853,31.333192194324702,Built-up,Other,Building or urban infrastructure observed.,Built-up classified as Other
+74.23735898457193,31.32160392715956,Other,Built-up,Open or bare land observed.,Other classified as Built-up

@@ -132,47 +132,60 @@ Results:
 
 This is a model-derived estimate of possible vegetation-to-built-up conversion. It is not verified farmland loss. Classification errors, mixed land-cover pixels, and temporal differences may affect the result.
 
+
 ## 10. Model Validation
 
-A total of 50 manual validation points were prepared.
+A total of 50 manually reviewed validation points were used to evaluate the classification results.
 
-One point was marked as Needs Review and excluded from the validation metrics.
+One point was marked as **Needs Review** because the available imagery did not provide sufficient confidence for a definitive reference label.
 
-| Metric | Result |
+### 10.1 Rule-Based Classification
+
+| Result | Points |
 |---|---:|
 | Total Validation Points | 50 |
-| Usable Points | 49 |
+| Correct Predictions | 38 |
+| Incorrect Predictions | 11 |
+| Needs Review | 1 |
+| Overall Accuracy | 76.00% |
+
+Rule-based accuracy was calculated as 38 correct predictions out of 50 total validation points.
+
+### 10.2 Random Forest Classification
+
+| Result | Points |
+|---|---:|
+| Total Validation Points | 50 |
 | Correct Predictions | 30 |
 | Incorrect Predictions | 19 |
-| Overall Accuracy | 61.22% |
+| Needs Review | 1 |
+| Overall Accuracy | 60.00% |
 
-Random Forest class-wise results:
+Random Forest accuracy was calculated as 30 correct predictions out of 50 total validation points. The point marked Needs Review was not treated as a confirmed error.
 
-| Class | Precision | Recall | F1-Score |
-|---|---:|---:|---:|
-| Vegetation | 0.75 | 0.90 | 0.82 |
-| Built-up | 0.33 | 0.40 | 0.36 |
-| Other | 0.62 | 0.42 | 0.50 |
+### 10.3 Comparison
 
-The Random Forest model achieved 61.22% accuracy on the usable manually reviewed validation points.
+The rule-based baseline achieved 76.00% accuracy, while the Random Forest model achieved 60.00% under the same 50-point denominator.
 
-The rule-based baseline achieved 77.55% accuracy on the same validation points.
-
-Therefore, the Random Forest model did not outperform the rule-based baseline in this experiment.
+In this experiment, the rule-based baseline performed better than the Random Forest model. These results should be interpreted cautiously because the validation set is relatively small and includes one point requiring further review.
 
 ## 11. Error Analysis
 
-A total of 19 Random Forest misclassification cases were analyzed.
+Random Forest predictions were compared with the manually reviewed reference labels for all 50 validation points.
 
-Common errors included:
+A total of 19 confirmed misclassification cases were documented and analyzed. One additional point was marked as Needs Review and was kept separate from the confirmed error cases.
+
+Common misclassification patterns included:
 
 - Built-up areas classified as Other.
 - Other areas classified as Built-up.
 - Other areas classified as Vegetation.
-- Mixed land-cover pixels.
-- Bare land and urban surfaces with similar spectral characteristics.
+- Mixed land-cover pixels causing uncertain predictions.
+- Bare land and built-up surfaces having similar spectral characteristics.
 
-These errors indicate that distinguishing built-up and other land-cover classes remains challenging.
+The error analysis helps identify limitations in the current classification workflow. The documented cases are available in the project's validation and error-analysis datasets.
+
+The point marked Needs Review should not be treated as a confirmed classification error unless additional imagery provides sufficient evidence.
 
 ## 12. Interactive Dashboard
 
@@ -207,23 +220,23 @@ The project generated the following outputs:
 ## 14. Limitations
 
 - Training labels were derived from ESA WorldCover 2021 and may not represent exact land-cover conditions in 2019 or 2025.
-- The validation dataset contains only 49 usable points.
+- The validation dataset contains 50 points, including one point marked Needs Review.
+- The rule-based baseline achieved 76.00% accuracy, while Random Forest achieved 60.00%, using all 50 points as the denominator and not counting the review point as correct.
 - Mixed land-cover pixels may affect classification accuracy.
 - Bare land and built-up areas may have similar spectral characteristics.
-- The possible conversion estimate is model-derived and has not been independently verified.
+- The possible vegetation-to-built-up conversion estimate is model-derived and has not been independently verified.
 - Seasonal and atmospheric differences may affect comparison results.
+- The results should be treated as an experimental assessment, not an official land-use record.
 
 ## 15. Conclusion
 
 Punjab GeoGuardian demonstrates a satellite-based workflow for land-cover classification and change detection in peri-urban Lahore.
 
-The project analyzed Sentinel-2 imagery from 2019 and 2025, generated RGB, NDVI, and NDBI maps, classified land cover, and estimated possible vegetation-to-built-up transitions.
+The project analyzed Sentinel-2 imagery from 2019 and 2025, generated RGB, NDVI, and NDBI maps, classified land cover into three categories, and estimated possible vegetation-to-built-up transitions.
 
-The Random Forest classification achieved 61.22% accuracy on 49 usable manually reviewed validation points. The mapped built-up class increased by approximately 3.36 km², while the estimated possible vegetation-to-built-up transition area was 5.51 km².
+The Random Forest classification achieved 60.00% accuracy, while the rule-based baseline achieved 76.00%, using 50 validation points and treating one Needs Review point as not correct. The classified built-up area increased by approximately 3.36 km?. The estimated possible vegetation-to-built-up transition area was 5.51 km?.
 
-These results should be interpreted cautiously due to classification uncertainty and mixed land-cover pixels. Future improvements should include additional validation points, better training labels, and higher-resolution imagery for verification.
-
----
+These figures are model-derived estimates and should be interpreted cautiously. They do not independently confirm farmland loss or the exact location of urban expansion. Further validation using additional reference points and higher-resolution imagery would improve confidence in the results.
 
 ## 16. References
 

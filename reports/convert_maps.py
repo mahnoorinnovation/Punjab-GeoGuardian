@@ -35,7 +35,7 @@ for filename, title, kind in maps:
     if kind == "rgb":
         image = np.moveaxis(data[:3], 0, -1)
         image = np.nan_to_num(image)
-        image = np.clip(image / 3000, 0, 1)
+        image = np.clip(image / 255.0, 0, 1)
         ax.imshow(image)
 
     elif kind == "index":

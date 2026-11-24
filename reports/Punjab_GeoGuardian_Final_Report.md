@@ -109,6 +109,21 @@ B2, B3, B4, B8, B11, B12, NDVI, and NDBI.
 
 Training samples were derived from ESA WorldCover 2021.
 
+### 7.1 Training Dataset and Sample Distribution
+
+A total of 600 training samples were generated using ESA WorldCover 2021 reference labels and Sentinel-2 spectral and index features.
+
+| Land Cover Class | Class Label | Training Samples |
+|---|---:|---:|
+| Vegetation / Agriculture | 0 | 200 |
+| Built-up / Urban | 1 | 200 |
+| Other Land Cover | 2 | 200 |
+| **Total** | | **600** |
+
+The dataset contains six Sentinel-2 spectral bands (B2, B3, B4, B8, B11, and B12), together with NDVI and NDBI features. The three classes are equally represented, with 200 samples per class.
+
+The training samples and the 50 manually reviewed validation records are maintained in separate CSV files. However, geographic independence between the two datasets has not been independently verified because the training sample CSV does not contain coordinate fields.
+
 ## 8. Land Cover Area Statistics
 
 Random Forest classification results:

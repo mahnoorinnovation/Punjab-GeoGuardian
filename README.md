@@ -76,12 +76,13 @@ The transition value is a model-derived estimate, not verified farmland loss.
 
 - Total manually reviewed points: 50
 - Usable points: 49
-- Correct predictions: 30
-- Incorrect predictions: 19
-- Random Forest accuracy: 61.22%
-- Rule-based baseline accuracy: 77.55%
+- Needs Review: 1
+- Random Forest: 30 correct and 19 incorrect predictions
+- Random Forest accuracy on 49 usable points: 61.22%
+- Rule-based baseline: 38 correct and 11 incorrect predictions
+- Rule-based baseline accuracy on 49 usable points: 77.55%
 
-The Random Forest model did not outperform the rule-based baseline in this experiment.
+Using all 50 points as the denominator and not counting the Needs Review point as correct, Random Forest accuracy is 60.00% and rule-based baseline accuracy is 76.00%. The Random Forest model did not outperform the rule-based baseline in this experiment.
 
 ## Project Structure
 
